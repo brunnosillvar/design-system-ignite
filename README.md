@@ -101,3 +101,7 @@
 # Publicação do projeto
 
 ## Instalar o pacote de daploy do storybook: npm i @storybook/storybook-deployer --save-dev
+
+### Subir o projeto para o Github
+
+### Criar uma pasta .github na raiz do projeto, dentro uma pasta workflows com o arquivo: deploy-docs.yml
