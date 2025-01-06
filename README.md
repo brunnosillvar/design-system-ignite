@@ -96,6 +96,10 @@
 
 ### Criar um arquivo turbo.json e configurá-lo, configurando também o arquivo package.json add um "packageManager"
 
+## Criar um remote caching para um externo CI/CD através da Vercel
+
+### Criar um token na vercel e configurar o arquivo deploy-docs.yml
+
 ##### -------------------------------------------------------------------------------------------------------------------------------------------
 
 # Publicação do projeto
