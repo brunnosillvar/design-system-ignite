@@ -105,3 +105,25 @@
 ### Subir o projeto para o Github
 
 ### Criar uma pasta .github na raiz do projeto, dentro uma pasta workflows com o arquivo: deploy-docs.yml
+
+##### -------------------------------------------------------------------------------------------------------------------------------------------
+
+# Changeset
+
+## Ajuda no versionamento quando se usa o monorepo, principalmente quando se vai utilizar o npm
+
+### Instalar: npm i @changesets/cli -D
+
+### Iniciá-lo: npx changeset init
+
+### Configurar o arquivo config.json na pasta .changeset
+
+### Fazer login no terminal na conta do npm
+
+### Criar uma organização no npm
+
+### Rodar o comando para adicionar os pacotes alterados: npm run changeset
+
+### Rodar o comando para criar as versões dos pacotes: npm run version-packages 
+
+### Rodar o comando para fazer o deploy: npm run release
