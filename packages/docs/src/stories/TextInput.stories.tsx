@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import {
-  StyledBox,
-  StyledText,
+  Box,
+  Text,
   TextInput,
   TextInputProps,
 } from '@brunnosillvar-ignite-ui/react'
@@ -18,13 +18,13 @@ export default {
   decorators: [
     (Story) => {
       return (
-        <StyledBox
+        <Box
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <StyledText size="sm">Email address</StyledText>
+          <Text size="sm">Email address</Text>
           {Story()}
-        </StyledBox>
+        </Box>
       )
     },
   ],

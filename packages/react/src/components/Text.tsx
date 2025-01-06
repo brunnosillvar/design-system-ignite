@@ -34,6 +34,4 @@ export interface TextProps extends ComponentProps<typeof Text> {
   as?: ElementType
 }
 
-export const StyledText: React.FC<TextProps> = (props) => <Text {...props} />
-
 Text.displayName = 'Text'

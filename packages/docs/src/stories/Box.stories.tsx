@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps, StyledText } from '@brunnosillvar-ignite-ui/react'
+import { Box, BoxProps, Text } from '@brunnosillvar-ignite-ui/react'
 
 export default {
   title: 'Surfaces/Box',
@@ -11,7 +11,7 @@ export default {
     },
   },
   args: {
-    children: <StyledText>Testando o elemento Box</StyledText>,
+    children: <Text>Testando o elemento Box</Text>,
   },
   argTypes: {
     control: {

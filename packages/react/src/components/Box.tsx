@@ -12,6 +12,4 @@ export interface BoxProps extends ComponentProps<typeof Box> {
   as?: ElementType
 }
 
-export const StyledBox: React.FC<BoxProps> = (props) => <Box {...props} />
-
 Box.displayName = 'Box'

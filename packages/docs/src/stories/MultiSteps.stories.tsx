@@ -1,9 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import {
-  StyledBox,
-  MultiStep,
-  MultiStepProps,
-} from '@brunnosillvar-ignite-ui/react'
+import { Box, MultiStep, MultiStepProps } from '@brunnosillvar-ignite-ui/react'
 
 export default {
   title: 'Form/Multi Step',
@@ -21,12 +17,12 @@ export default {
   decorators: [
     (Story) => {
       return (
-        <StyledBox
+        <Box
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
           {Story()}
-        </StyledBox>
+        </Box>
       )
     },
   ],

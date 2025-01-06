@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import {
-  StyledBox,
-  StyledText,
+  Box,
+  Text,
   Checkbox,
   CheckboxProps,
 } from '@brunnosillvar-ignite-ui/react'
@@ -18,13 +18,13 @@ export default {
   decorators: [
     (Story) => {
       return (
-        <StyledBox
+        <Box
           as="label"
           css={{ display: 'flex', flexDirection: 'row', gap: '$2' }}
         >
           {Story()}
-          <StyledText size="sm">Accept terms of use</StyledText>
-        </StyledBox>
+          <Text size="sm">Accept terms of use</Text>
+        </Box>
       )
     },
   ],

@@ -12,13 +12,13 @@
 
 ##### -------------------------------------------------------------------------------------------------------------------------------------------
 
-# React
+# React - Tem que ser o 18 para ter compatibilidade com o Stitches
 
 ### Criar um pacote react e inicia-lo, depois instalar o ts: npm init -y, npm i typescript -D
 
 ### Instalar o tsup, uma ferramenta de conversão do código em um pacote JS ou ES6 que vai poder ser carregado em outras aplicações: npm i tsup -D
 
-### Instalar o react como dependencia de DESENVOLVIMENTO: npm i -D react @types/react @types/react-dom
+### Instalar o react como dependencia de DESENVOLVIMENTO: npm install react@18 react-dom@18 @types/react@18 @types/react-dom@18
 
 ### Configurar o package.json
 
