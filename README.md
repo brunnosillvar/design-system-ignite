@@ -60,7 +60,7 @@
 
 ##### -------------------------------------------------------------------------------------------------------------------------------------------
 
-# Configuração do Stitches no React
+# Configuração do Stitches no React 18
 
 ## Instalar o Stiches em produção no pacote do react: npm i @stitches/react
 
