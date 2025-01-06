@@ -1,0 +1,4 @@
+{
+  "extends": "@brunnosillvar-ignite-ui/ts-config/base.json",
+  "include": ["src"],  
+}
