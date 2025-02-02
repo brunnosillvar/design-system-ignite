@@ -1,4 +1,4 @@
-import { MultiStepContainer, Label, Steps, Step } from './style'
+import { MultiStepContainer, Label, Steps, Step } from './styles'
 
 export interface MultiStepProps {
   size: number
