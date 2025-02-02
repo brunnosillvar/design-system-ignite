@@ -96,10 +96,6 @@
 
 ### Criar um arquivo turbo.json e configurá-lo, configurando também o arquivo package.json add um "packageManager"
 
-## Criar um remote caching para um externo CI/CD através da Vercel
-
-### Criar um token na vercel e configurar o arquivo deploy-docs.yml
-
 ##### -------------------------------------------------------------------------------------------------------------------------------------------
 
 # Publicação do projeto
@@ -131,3 +127,21 @@
 ### Rodar o comando para criar as versões dos pacotes: npm run version-packages 
 
 ### Rodar o comando para fazer o deploy: npm run release
+
+##### -------------------------------------------------------------------------------------------------------------------------------------------
+
+# Criar um remote caching para um externo CI/CD através da Vercel
+
+### Criar um token na vercel e configurar o arquivo deploy-docs.yml
+
+### Configurar o arquivo yml também para Github Actions com cach
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+# Criar um CI/CD dos pacotes NPM
+
+### Criar um arquivo "release.yml" e adcionar o conteúdo
+
+### Criar um token no NPM
+
+### Adicionar esse token nas Actions Security do projeto no Github
